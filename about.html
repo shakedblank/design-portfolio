@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaked Blank</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <section id="top-float">
+        <img src="assets/Logo.png" width="170" id="main-logo">
+    </section>
+
+    <div id="side-menu">
+        <div id="menu-title" class="poppins-bold"><h3>menu</h3></div>
+        <a class="poppins-bold topb " href="index.html">home</a>
+        <a class="poppins-bold topb" href="">projects</a>
+        <a class="poppins-bold topb current-page" href="about.html">about me</a>
+        
+    </div>
+    <section id="aboutS">
+        <div id="aboutD">
+            <img src="assets\shakedPhoto.jpg">
+            <div> 
+                <h1 class="poppins-bold about-title" ><span style="display: inline-block;">Hi i'm Shaked</span></h1>
+                <p class="poppins-medium about-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus nulla modi est nam repellat sapiente, provident maxime vitae error. Sint placeat inventore quos maiores deleniti ea quo magni ducimus!</p>    
+            </div>
+
+        </div>
+        <div class="formD">
+            <h2 class="poppins-bold">lets talk!</h2>  
+            <form action="https://formspree.io/f/mjkyepza" method="POST">
+                <label class="poppins-medium" for="name">Name:</label><br>
+                <input type="text" id="name" name="name" class="poppins-medium" required><br>
+            
+                <label class="poppins-medium" for="email">Email:</label><br>
+                <input type="email" id="email" class="poppins-medium" name="email" required><br>
+            
+                <label class="poppins-medium" for="phone">Phone:</label><br>
+                <input type="tel" id="phone" class="poppins-medium" name="phone"><br>
+            
+                <input type="submit" value="Send" class="buttons poppins-bold" id="form-submit">
+            </form>
+            
+            
+        </div>
+    </section>
+    <footer>
+        <div id="footer-top">
+            <a href="index.html"><img src="assets/Logo.png" id="logo-bottom"></a>
+            <div id="bottom-center">
+                <a href="https://www.facebook.com/shakedblank"><img src="assets/facebook logo.svg"></a>
+                <a href="https://www.instagram.com/shakedblank/"><img src="assets/instagram log.svg"></a>
+            </div>
+            <div id="bottom-right">
+            <a class="bottomb poppins-bold buttons" href="index.html">home</a>
+            <a class="bottomb poppins-bold buttons">projects</a>
+            <a class="bottomb poppins-bold buttons" href="about.html">about me</a>   
+        </div>
+     </div>
+     <h5 class="poppins-medium" id="credit" >Designed and built by Shaked Blank</h5> 
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="aboutPage.js" type="module"></script>
+    <script src="header.js"></script>
+</body>
+</html>
