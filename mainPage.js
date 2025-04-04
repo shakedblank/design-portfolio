@@ -44,6 +44,14 @@ tl.from(".Sl", {y:150,ease: "back.out(1.7)",duration: titleTime})
 
 const shaked= document.querySelector("#text-emphasis-main");
 
+shaked.addEventListener("mouseenter", () => {
+    gsap.to("#text-emphasis-main", {rotate:7,ease: "bounce.out"});
+});
+shaked.addEventListener("mouseleave", () => {
+    gsap.to("#text-emphasis-main", {rotate:-7,ease: "bounce.out"});
+});
+
+
 jsonFill("mainpage.json").then(() => {
     // Now that projects are added, select the new elements
     const projectConteinerBox = document.querySelectorAll(".project-continer");
