@@ -7,9 +7,11 @@ jsonFill("ProjectsPage.json").then(() => {
 
     projectConteinerBox.forEach((element, index) => {
         element.addEventListener("mouseenter", () => {
+            gsap.to(projectConteinerBox[index], {x: 20,ease: "elastic" });
             gsap.to(projectConteinerImg[index], { scale: 1.1, x: -10 });
         });
         element.addEventListener("mouseleave", () => {
+            gsap.to(projectConteinerBox[index], {x: 0,ease: "elastic", duration:1 });
             gsap.to(projectConteinerImg[index], { scale: 1, x: 0 });
         });
     });
