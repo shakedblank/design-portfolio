@@ -20,6 +20,27 @@
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "about.html",
         "targetClass": "projects-section"        
+      },
+      {
+        "src": "assets/randomimage.jpg",
+        "innerTitle": "athletics u16",
+        "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "newPage": "about.html",
+        "targetClass": "projects-section"        
+      },
+      {
+        "src": "assets/randomimage.jpg",
+        "innerTitle": "athletics u16",
+        "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "newPage": "about.html",
+        "targetClass": "projects-section"        
+      },
+      {
+        "src": "assets/randomimage.jpg",
+        "innerTitle": "athletics u16",
+        "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "newPage": "about.html",
+        "targetClass": "projects-section"        
       }
     ]
   }
