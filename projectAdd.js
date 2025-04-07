@@ -1,4 +1,4 @@
-function projectBox(src, innerTitle ,innerP,newPage="index.html",targetClass){
+export function projectBox(src, innerTitle ,innerP,newPage="index.html",targetClass){
     const projectHome = document.getElementById(targetClass);
     const project= document.createElement("div");
     project.className="project-continer";
@@ -27,7 +27,7 @@ function projectBox(src, innerTitle ,innerP,newPage="index.html",targetClass){
     project.addEventListener("click", function(){changePage(newPage)});
     }
 
-    export function jsonFill(file) {
+export function jsonFill(file) {
         return fetch(file) // Return the fetch promise
             .then(response => response.json())
             .then(data => {

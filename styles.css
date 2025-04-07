@@ -199,7 +199,7 @@ body::selection {
     background-color: var(--color3);
 }
 
-#projects-home {
+.projects-home {
     display: flex;
     justify-content: space-evenly;
     align-items: center;

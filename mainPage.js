@@ -1,4 +1,4 @@
-import {jsonFill} from "/projectAdd.js";
+import {projectBox} from "/projectAdd.js";
 
 const projectConteinerBox = document.querySelectorAll(".project-continer");
 const projectConteinerImg = document.querySelectorAll(".projectimg");
@@ -52,7 +52,23 @@ shaked.addEventListener("mouseleave", () => {
 });
 
 
-jsonFill("mainpage.json").then(() => {
+
+
+fetch('ProjectsPage.json')
+  .then(response => response.json())
+  .then(data => {
+    const projects = data.Projects;
+    for (let i = 0; i < 3 && i < projects.length; i++) {
+      const project = projects[i];
+      projectBox(
+        project.src,
+        project.innerTitle,
+        project.innerP,
+        project.newPage,
+        project.targetClass
+      );
+    }
+  }).then(() => {
     // Now that projects are added, select the new elements
     const projectConteinerBox = document.querySelectorAll(".project-continer");
     const projectConteinerImg = document.querySelectorAll(".projectimg");
@@ -68,5 +84,3 @@ jsonFill("mainpage.json").then(() => {
 
     console.log("GSAP animations applied to new elements!");
 });
-
-
