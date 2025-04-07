@@ -1,4 +1,4 @@
-export function projectBox(src, innerTitle ,innerP,newPage="index.html",targetClass){
+export function projectBox(num,src, innerTitle ,innerP,newPage="index.html",targetClass){
     const projectHome = document.getElementById(targetClass);
     const project= document.createElement("div");
     project.className="project-continer";
@@ -21,7 +21,7 @@ export function projectBox(src, innerTitle ,innerP,newPage="index.html",targetCl
     projectDiv.appendChild(projectP);
     
     function changePage(page){
-        window.location.href = page;
+        window.location.href = page+"?project="+num;
     }
     
     project.addEventListener("click", function(){changePage(newPage)});
@@ -33,6 +33,7 @@ export function jsonFill(file) {
             .then(data => {
                 data.Projects.forEach(project => {
                     projectBox(
+                        project.num,
                         project.src,
                         project.innerTitle,
                         project.innerP,

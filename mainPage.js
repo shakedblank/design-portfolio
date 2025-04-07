@@ -61,6 +61,7 @@ fetch('ProjectsPage.json')
     for (let i = 0; i < 3 && i < projects.length; i++) {
       const project = projects[i];
       projectBox(
+        project.num,
         project.src,
         project.innerTitle,
         project.innerP,

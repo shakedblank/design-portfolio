@@ -1,10 +1,11 @@
 {
     "Projects": [
       {
+        "num":1,
         "src": "assets/randomimage.jpg",
         "innerTitle": "athletics u18",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "newPage": "about.html",
+        "newPage": "project.html",
         "targetClass": "projects-section"
       },
       {
