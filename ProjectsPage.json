@@ -1,7 +1,7 @@
 {
     "Projects": [
       {
-        "num":1,
+        "num":0,
         "src": "assets/randomimage.jpg",
         "innerTitle": "athletics u18",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
@@ -9,38 +9,42 @@
         "targetClass": "projects-section"
       },
       {
+        "num":1,
         "src": "assets/randomimage.jpg",
         "innerTitle": "athletics u17",
-        "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "newPage": "about.html",
+        "innerP": "fasdficing elit.",
+        "newPage": "project.html",
         "targetClass": "projects-section"        
       },
       {
+        "num":2,
         "src": "assets/randomimage.jpg",
-        "innerTitle": "athletics u16",
+        "innerTitle": "athletics fsdf",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "newPage": "about.html",
+        "newPage": "project.html",
+        "targetClass": "projects-section"        
+      },
+      {"num":3,
+        "src": "assets/randomimage.jpg",
+        "innerTitle": "athletics 212216",
+        "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "newPage": "project.html",
         "targetClass": "projects-section"        
       },
       {
+        "num":4,
         "src": "assets/randomimage.jpg",
-        "innerTitle": "athletics u16",
+        "innerTitle": "athletics u4343",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "newPage": "about.html",
+        "newPage": "project.html",
         "targetClass": "projects-section"        
       },
       {
+        "num":5,
         "src": "assets/randomimage.jpg",
-        "innerTitle": "athletics u16",
+        "innerTitle": "athletics 345",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "newPage": "about.html",
-        "targetClass": "projects-section"        
-      },
-      {
-        "src": "assets/randomimage.jpg",
-        "innerTitle": "athletics u16",
-        "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "newPage": "about.html",
+        "newPage": "project.html",
         "targetClass": "projects-section"        
       }
     ]
