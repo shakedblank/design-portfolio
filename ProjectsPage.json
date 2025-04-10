@@ -6,7 +6,13 @@
         "innerTitle": "athletics u18",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "project.html",
-        "targetClass": "projects-section"
+        "targetClass": "projects-section",
+        "image1":"assets/example image-01.jpg",
+        "image2":"assets/example image-01.jpg",
+        "smallImage1":"assets/example image-02.jpg",
+        "smallImage2":"assets/example image-02.jpg",
+        "smallImage3":"assets/example image-02.jpg",
+        "smallImage4":"assets/example image-02.jpg"
       },
       {
         "num":1,
