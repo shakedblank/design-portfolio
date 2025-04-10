@@ -1,3 +1,20 @@
+function removeElement(element) {
+    if (typeof(element) === "string") {
+      element = document.querySelector(element);
+    }
+    return function() {
+      element.parentNode.removeChild(element);
+    };
+  }
+  
+  const tl = new TimelineMax();
+  
+  tl.to("#loader", {y:'100%',delay:0.3})
+        .call(removeElement("#loader"));
+  
+
+
+
 const aboutText = document.querySelector(".about-paragraph");
 const words = aboutText.textContent.split(" "); // Use textContent to avoid breaking HTML structure
 // Clear existing content

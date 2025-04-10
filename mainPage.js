@@ -3,6 +3,18 @@ import {projectBox} from "/projectAdd.js";
 const projectConteinerBox = document.querySelectorAll(".project-continer");
 const projectConteinerImg = document.querySelectorAll(".projectimg");
 
+function removeElement(element) {
+    if (typeof(element) === "string") {
+      element = document.querySelector(element);
+    }
+    return function() {
+      element.parentNode.removeChild(element);
+    };
+  }
+  
+
+
+        
 projectConteinerBox.forEach((element,index)=>{
     
     element.addEventListener("mouseenter", () => {
@@ -17,7 +29,7 @@ projectConteinerBox.forEach((element,index)=>{
 
 
 const wordSeperator = document.getElementById("word-seperator");
-const skills= ["photoshop","illustrator","after\u00A0effects","indesign","css","html","javascript","unity","premier",
+const skills= ["photoshop","illustrator","after\u00A0effects","indesign","css","html","javascript","unity","premier","Cinema4D"
 ];
 for(let i=0; i<2;i++){
     const wordGroup = document.createElement("div");
@@ -33,8 +45,10 @@ for(let i=0; i<2;i++){
 }
 let titleTime=0.2;
 let tl = gsap.timeline();
-gsap.from(".h1-type", {x:150,ease: "elastic",duration: 1.4})
-tl.from(".Sl", {y:150,ease: "back.out(1.7)",duration: titleTime})
+gsap.from(".h1-type", {x:150,ease: "elastic",duration: 1.4,delay:0.2});
+tl.to("#loader", {y:'100%',delay:0.1})
+   .call(removeElement("#loader"))
+.from(".Sl", {y:150,ease: "back.out(1.7)",duration: titleTime})
 .from(".Hl", {y:150,ease: "back.out(1.8)",duration: titleTime})
 .from(".Al", {y:150,ease: "back.out(1.9)",duration: titleTime})
 .from(".Kl", {y:150,ease: "back.out(2)",duration: titleTime})
@@ -85,3 +99,7 @@ fetch('ProjectsPage.json')
 
     console.log("GSAP animations applied to new elements!");
 });
+
+
+
+  

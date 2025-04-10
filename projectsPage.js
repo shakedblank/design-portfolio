@@ -18,3 +18,18 @@ jsonFill("ProjectsPage.json").then(() => {
 
     console.log("GSAP animations applied to new elements!");
 });
+
+function removeElement(element) {
+    if (typeof(element) === "string") {
+      element = document.querySelector(element);
+    }
+    return function() {
+      element.parentNode.removeChild(element);
+    };
+  }
+  
+  const tl = new TimelineMax();
+  
+  tl.to("#loader", {y:'100%',delay:0.3})
+        .call(removeElement("#loader"));
+  
