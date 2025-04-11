@@ -394,12 +394,18 @@ a{
     display: flex;
     width: 90vw;
     justify-content: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 70px;
 }
 
 #Project-title{
     text-transform: uppercase;
     font-size: 5rem;
+}
+
+#Project-description{
+    width: 30%;
 }
 
 #projects-wrapper{
