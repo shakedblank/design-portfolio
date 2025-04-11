@@ -71,3 +71,43 @@ const tl = new TimelineMax();
 
 tl.to("#loader", {y:'100%',delay:0.3})
       .call(removeElement("#loader"));
+
+
+      const imagePlace = document.querySelector("#top-float");
+      const imageBg = document.createElement("div");
+      imageBg.style.position = "fixed";
+      imageBg.style.backdropFilter = "blur(10px)";
+      imageBg.style.width = "100vw";
+      imageBg.style.height = "100vh";
+      imageBg.style.zIndex = "1000";
+      imageBg.style.display = "flex";
+      imageBg.style.alignItems = "center";
+      imageBg.style.justifyContent = "center";
+      
+      const clickableImages = document.querySelectorAll("img");
+      
+      clickableImages.forEach((element) => {
+        element.addEventListener("click", () => {
+          const clone = element.cloneNode(true);
+          clone.id = "image-enlarge";
+          clone.style.height = "90%";
+          clone.style.width = "auto";
+          clone.style.border = "3px solid var(--color3)";
+          imageBg.innerHTML = "";
+          imageBg.appendChild(clone);
+          imagePlace.after(imageBg);
+          gsap.from(imageBg, { opacity: 0 });
+        });
+      });
+      
+      imageBg.addEventListener("click", () => {
+        gsap.to(imageBg, {
+          opacity: 0,
+          onComplete: () => {
+            document.querySelector("#image-enlarge")?.remove();
+            imageBg.remove();
+            imageBg.style.opacity = "100%";
+          }
+        });
+      });
+      

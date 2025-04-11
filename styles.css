@@ -397,11 +397,17 @@ a{
     align-items: center;
     justify-content:flex-start;
     gap: 70px;
+    color: var(--color1);
 }
 
 #Project-title{
     text-transform: uppercase;
     font-size: 5rem;
+}
+
+#secondey-paragraph{
+    font-size: 1.5rem;
+    color: var(--color1);
 }
 
 #Project-description{
