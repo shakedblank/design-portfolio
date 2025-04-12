@@ -77,8 +77,8 @@ tl.to("#loader", {y:'100%',delay:0.3})
       const imageBg = document.createElement("div");
       imageBg.style.position = "fixed";
       imageBg.style.backdropFilter = "blur(10px)";
-      imageBg.style.width = "100vw";
-      imageBg.style.height = "100vh";
+      imageBg.style.width = "100%";
+      imageBg.style.height = "100%";
       imageBg.style.zIndex = "1000";
       imageBg.style.display = "flex";
       imageBg.style.alignItems = "center";
@@ -90,9 +90,11 @@ tl.to("#loader", {y:'100%',delay:0.3})
         element.addEventListener("click", () => {
           const clone = element.cloneNode(true);
           clone.id = "image-enlarge";
-          clone.style.height = "90%";
+          clone.style.height = "90vh";
           clone.style.width = "auto";
-          clone.style.border = "3px solid var(--color3)";
+          clone.style.maxWidth = "90vw";
+          clone.style.maxHeight = "90vh";
+          clone.style.objectFit = "contain";
           imageBg.innerHTML = "";
           imageBg.appendChild(clone);
           imagePlace.after(imageBg);
