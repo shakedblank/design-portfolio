@@ -9,7 +9,7 @@ html {
     --color2: #00879E;
     --color3: #FFAB5B;
     --color4: #FFF2DB;
-
+    
 }
 
 body {
@@ -444,4 +444,8 @@ a{
     color: var(--color4);
     align-items: center;
     justify-content: center;
+}
+#main-video{
+    width: 90vw;
+    height: calc(90vw * 9 / 16);
 }

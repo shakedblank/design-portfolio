@@ -18,10 +18,11 @@
       {
         "num":1,
         "src": "assets/randomimage.jpg",
-        "innerTitle": "athletics u17",
+        "innerTitle": "showreel",
         "innerP": "fasdficing elit.",
         "newPage": "project.html",
-        "targetClass": "projects-section"        
+        "targetClass": "projects-section",
+        "video1": "https://player.vimeo.com/video/907606703"      
       },
       {
         "num":2,

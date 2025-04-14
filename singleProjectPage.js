@@ -24,6 +24,7 @@ const imageFour = document.querySelector("#image-four");
 const imageFive = document.querySelector("#image-five");
 const imageSix = document.querySelector("#image-six");
 const imageSeven = document.querySelector("#image-s");
+const video1= document.querySelector("#main-video");
 
 
 mainTitle.textContent= projectObject.innerTitle;
@@ -55,6 +56,10 @@ if(projectObject.smallImage4== undefined){
   document.querySelector("#small-images").removeChild(imageSix);
 }else{imageSix.src=projectObject.smallImage4;};
 
+console.log(video1);
+if(projectObject.video1==undefined){
+  document.querySelector("#projects-wrapper").removeChild(video1);
+}else{video1.src=projectObject.video1;};
 
 
 
