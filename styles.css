@@ -286,14 +286,14 @@ footer .buttons {
     display: flex;
     align-items: center;
     justify-content: center;
-     width: 750px; 
+     max-width: 750px; 
     gap: 20px;
 
 }
 
 #aboutS{
     padding-top: 80px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -448,4 +448,31 @@ a{
 #main-video{
     width: 90vw;
     height: calc(90vw * 9 / 16);
+}
+
+@media only screen and (max-width: 790px) {
+    #aboutS form{
+        flex-direction: column;  
+        
+    }
+    #aboutS{
+        padding: 20px 50px;
+        align-items: normal; 
+        gap:0;
+    }
+    #aboutD{
+        flex-direction: column; 
+    }
+    #aboutS img{
+        max-width: 100%;
+    }
+    #form-submit{
+        margin:10px 0;
+    }
+    .formD h2{
+        margin: 0;
+    }
+    .formD{
+        margin-top: 20px;
+    }
 }
