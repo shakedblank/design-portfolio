@@ -483,4 +483,16 @@ a{
     footer{
         padding: 20px 0;
     }
+    #top-float {
+        display: flex;
+        position: relative;
+        justify-content: space-evenly;
+        top: 0;
+        padding: 20px 0;
+    }
+    #side-menu {
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+    }
 }
