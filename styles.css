@@ -475,17 +475,12 @@ a{
     .formD{
         margin-top: 20px;
     }
-
-}
-
-@media only screen and (max-width: 450px) {
-
-#footer-top{
-    flex-direction: column;
-    gap:10px;
-    
-}
-footer{
-    padding: 20px 0;
-}
+    #footer-top{
+        flex-direction: column;
+        gap:10px;
+        
+    }
+    footer{
+        padding: 20px 0;
+    }
 }
