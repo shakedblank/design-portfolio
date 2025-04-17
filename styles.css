@@ -518,4 +518,15 @@ a{
     #menu-popup{
         display: flex;
     }
+
+    .projects-pages .project-continer{
+        flex-direction: column;
+        width: 80%;
+    }
+    .projects-pages .project-continer img {
+        width: 100%;
+    }
+    .top-gap{
+        min-height: 20px;
+    }
 }
