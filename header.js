@@ -26,3 +26,17 @@ document.addEventListener("mousemove", (event) => {
 document.addEventListener("mouseup", () => {
     isDragging = false;
 });
+
+
+const popup = document.querySelector("#menu-popup");
+let poped = false;
+popup.addEventListener("click",()=>{
+    if(poped==false){
+        gsap.to("#side-menu", {top:'50%',ease: "bounce.out"});
+        poped=true;
+    }else if(poped==true){
+        gsap.to("#side-menu", {top:'-20%'});
+        poped=false;
+    }
+
+});
