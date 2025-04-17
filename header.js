@@ -28,15 +28,16 @@ document.addEventListener("mouseup", () => {
 });
 
 
-const popup = document.querySelector("#menu-popup");
-let poped = false;
-popup.addEventListener("click",()=>{
-    if(poped==false){
-        gsap.to("#side-menu", {top:'50%',ease: "bounce.out"});
-        poped=true;
-    }else if(poped==true){
-        gsap.to("#side-menu", {top:'-20%'});
-        poped=false;
-    }
+const popupButton = document.querySelector("#menu-popup");
+const sideMenu = document.querySelector("#side-menu");
 
+let isMenuOpen = false;
+
+popupButton.addEventListener("click", () => {
+  isMenuOpen = !isMenuOpen;
+
+  gsap.to(sideMenu, {
+    top: isMenuOpen ? "50%" : "-20%",
+    ease: isMenuOpen ? "bounce.out" : "power1.in"
+  });
 });
