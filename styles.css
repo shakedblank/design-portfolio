@@ -392,7 +392,7 @@ a{
 
 .projectpage-title{
     display: flex;
-    width: 90vw;
+    max-width: 90vw;
     justify-content: center;
     align-items: center;
     justify-content:flex-start;
@@ -408,10 +408,13 @@ a{
 #secondey-paragraph{
     font-size: 1.5rem;
     color: var(--color1);
+    max-width: 30%;
+    min-width: 200px;
+    padding: 20px 0;
 }
 
 #Project-description{
-    width: 30%;
+    max-width: 30%;
 }
 
 #projects-wrapper{
@@ -528,5 +531,22 @@ a{
     }
     .top-gap{
         min-height: 20px;
+    }
+    .projectpage-title{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    #Project-description{
+        max-width: 100%;
+    }
+    #projects-wrapper{
+        padding-top: 20px;
+    }
+    #Project-title{
+        max-width: 100%;
+        font-size: 4rem;
+        
+
     }
 }

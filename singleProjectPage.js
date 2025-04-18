@@ -100,6 +100,7 @@ tl.to("#loader", {y:'100%',delay:0.3})
           clone.style.maxWidth = "90vw";
           clone.style.maxHeight = "90vh";
           clone.style.objectFit = "contain";
+          clone.style.boxShadow= "7px 7px 0 var(--color1)";
           imageBg.innerHTML = "";
           imageBg.appendChild(clone);
           imagePlace.after(imageBg);
