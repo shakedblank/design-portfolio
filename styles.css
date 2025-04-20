@@ -547,8 +547,8 @@ a{
         padding-top: 20px;
     }
     #Project-title{
-        max-width: 100%;
-        font-size: 4rem;
+        /* max-width: 100%; */
+        font-size: 2rem;
         line-height: 4rem;
         
     }
