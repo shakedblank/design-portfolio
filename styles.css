@@ -384,7 +384,7 @@ a{
 }
 
 .project-imageb{
-    width:90vw;
+    width:70vw;
 }
 .project-images{
     width:100%;
@@ -392,7 +392,7 @@ a{
 
 .projectpage-title{
     display: flex;
-    max-width: 90vw;
+    max-width: 70vw;
     justify-content: center;
     align-items: center;
     justify-content:flex-start;
@@ -406,7 +406,7 @@ a{
 }
 
 #secondey-paragraph{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--color1);
     max-width: 30%;
     min-width: 200px;
@@ -415,6 +415,7 @@ a{
 
 #Project-description{
     max-width: 30%;
+    font-size: 1rem;
 }
 
 #projects-wrapper{
@@ -425,7 +426,7 @@ a{
 }
 #small-images{
     margin: 20px 0;
-    width: 90vw;
+    width: 70vw;
     display: grid;
     gap: 20px;
     grid-template-columns: auto auto;
@@ -536,6 +537,8 @@ a{
         flex-direction: column;
         gap: 20px;
         align-items: flex-start;
+        max-width: 80vw;
+        padding-bottom: 20px;
     }
     #Project-description{
         max-width: 100%;
@@ -546,7 +549,18 @@ a{
     #Project-title{
         max-width: 100%;
         font-size: 4rem;
+        line-height: 4rem;
         
-
+    }
+    .project-imageb{
+        width: 80vw;
+    }
+    #small-images{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #secondey-paragraph{
+        max-width: 80vw;
     }
 }
