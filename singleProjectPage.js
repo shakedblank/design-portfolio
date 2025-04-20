@@ -80,14 +80,19 @@ tl.to("#loader", {y:'100%',delay:0.3})
 
       const imagePlace = document.querySelector("#top-float");
       const imageBg = document.createElement("div");
+      imageBg.style.top = "0";
+      imageBg.style.left = "0";
+      imageBg.style.right = "0";
+      imageBg.style.bottom = "0";
       imageBg.style.position = "fixed";
       imageBg.style.backdropFilter = "blur(10px)";
-      imageBg.style.width = "100%";
-      imageBg.style.height = "100%";
+      imageBg.style.width = "100vw";
+      imageBg.style.height = "100vh";
       imageBg.style.zIndex = "1000";
       imageBg.style.display = "flex";
       imageBg.style.alignItems = "center";
       imageBg.style.justifyContent = "center";
+      
       
       const clickableImages = document.querySelectorAll("img");
       
@@ -100,7 +105,6 @@ tl.to("#loader", {y:'100%',delay:0.3})
           clone.style.maxWidth = "90vw";
           clone.style.maxHeight = "90vh";
           clone.style.objectFit = "contain";
-          clone.style.boxShadow= "7px 7px 0 var(--color1)";
           imageBg.innerHTML = "";
           imageBg.appendChild(clone);
           imagePlace.after(imageBg);

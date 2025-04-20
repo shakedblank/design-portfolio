@@ -5,15 +5,15 @@
 }
 
 html {
-    --color1: #003092;
+    --color1: #003192;
     --color2: #00879E;
     --color3: #FFAB5B;
     --color4: #FFF2DB;
-    
 }
 
 body {
     background-color: var(--color4);
+    
 
 }
 
@@ -547,7 +547,6 @@ a{
         padding-top: 20px;
     }
     #Project-title{
-        /* max-width: 100%; */
         font-size: 2rem;
         line-height: 4rem;
         
