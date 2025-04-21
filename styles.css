@@ -444,7 +444,7 @@ a{
 }
 
 .loader-title{
-    font-size: 5rem;
+    font-size: 10vw;
     color: var(--color4);
     align-items: center;
     justify-content: center;
@@ -518,6 +518,7 @@ a{
     top: -20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 72vw;
     }
     #menu-popup{
         display: flex;
@@ -561,5 +562,32 @@ a{
     }
     #secondey-paragraph{
         max-width: 80vw;
+    }
+    .projects-home {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .h1-type {
+        font-size: 10vw;
+        line-height: auto;
+    }
+    #text-emphasis-main {
+        padding: auto;
+    }
+    #home-header {
+    height: 30vh;
+    }
+    #about-small {
+        min-height: 40vh;
+        height: auto;
+    }
+    #word-seperator{
+        max-height: 6vh;
+    }
+    #home-aboutd{
+        max-width: 70vw;
+    }
+    .topb{
+        font-size: 2rem;
     }
 }
