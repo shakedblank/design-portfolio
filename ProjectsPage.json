@@ -35,7 +35,7 @@
       {
         "num":3,
         "src": "assets/randomimage.jpg",
-        "innerTitle": "israeli athletics 87 championship",
+        "innerTitle": "athletics 87 championship",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "project.html",
         "targetClass": "projects-section"
@@ -51,7 +51,7 @@
       {
         "num":5,
         "src": "assets/randomimage.jpg",
-        "innerTitle": "mazals- achinoam olive oil",
+        "innerTitle": "mazal's",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "project.html",
         "targetClass": "projects-section"
@@ -59,7 +59,7 @@
       {
         "num":6,
         "src": "assets/randomimage.jpg",
-        "innerTitle": "f1-cinema4d final project",
+        "innerTitle": "F1 final project",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "project.html",
         "targetClass": "projects-section"
@@ -67,7 +67,7 @@
       {
         "num":7,
         "src": "assets/randomimage.jpg",
-        "innerTitle": "israel 2021 womens's water polo championship",
+        "innerTitle": "water polo championship",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "project.html",
         "targetClass": "projects-section"
