@@ -73,12 +73,12 @@
         "newPage": "project.html",
         "targetClass": "projects-section",
         "seconderyP":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "image1":"assets/example image-01.jpg",
+        "image1":"assets/waterpoloLogoimage.jpg",
         "image2":"assets/example image-01.jpg",
-        "smallImage1":"assets/u18medal.jpg",
-        "smallImage2":"assets/example image-02.jpg",
-        "smallImage3":"assets/example image-02.jpg",
-        "smallImage4":"assets/example image-02.jpg"
+        "smallImage1":"assets/waterpoloimagesmall1.jpg",
+        "smallImage2":"assets/waterpoloimagesmall2.jpg",
+        "smallImage3":"assets/waterpoloimagesmall4.jpg",
+        "smallImage4":"assets/waterpoloimagesmall3.jpg"
       }
     ]
   }
