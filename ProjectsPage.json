@@ -2,24 +2,24 @@
     "Projects": [
       {
         "num":0,
-        "src": "assets/randomimage.jpg",
-        "innerTitle": "athletics u18",
+        "src": "assets/u20Logo.jpg",
+        "innerTitle": "athletics u20/u18",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "project.html",
         "targetClass": "projects-section",
         "seconderyP":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "image1":"assets/example image-01.jpg",
         "image2":"assets/example image-01.jpg",
-        "smallImage1":"assets/example image-02.jpg",
+        "smallImage1":"assets/u18medal.jpg",
         "smallImage2":"assets/example image-02.jpg",
         "smallImage3":"assets/example image-02.jpg",
         "smallImage4":"assets/example image-02.jpg"
       },
       {
         "num":1,
-        "src": "assets/randomimage.jpg",
+        "src": "assets/logoShowreel.jpg",
         "innerTitle": "showreel",
-        "innerP": "fasdficing elit.",
+        "innerP": "A collection of my motion design and animation work—blending design, movement, and a touch of code to bring ideas to life.",
         "newPage": "project.html",
         "targetClass": "projects-section",
         "video1": "https://player.vimeo.com/video/907606703"      
@@ -43,7 +43,7 @@
       {
         "num":4,
         "src": "assets/randomimage.jpg",
-        "innerTitle": "athletics u18",
+        "innerTitle": "jerusalem grand slam",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "project.html",
         "targetClass": "projects-section"
@@ -58,19 +58,27 @@
       },
       {
         "num":6,
-        "src": "assets/randomimage.jpg",
+        "src": "assets/logof1.jpg",
         "innerTitle": "F1 final project",
-        "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "innerP": "Final project created in Cinema 4D – a fast-paced and dynamic Formula 1 inspired animation, full of energy and motion.",
         "newPage": "project.html",
-        "targetClass": "projects-section"
+        "targetClass": "projects-section",
+        "video1": "https://player.vimeo.com/video/791100613"   
       },
       {
         "num":7,
-        "src": "assets/randomimage.jpg",
-        "innerTitle": "water polo championship",
+        "src": "assets/logowaterpolo.jpg",
+        "innerTitle": "water polo european championships",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "project.html",
-        "targetClass": "projects-section"
+        "targetClass": "projects-section",
+        "seconderyP":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "image1":"assets/example image-01.jpg",
+        "image2":"assets/example image-01.jpg",
+        "smallImage1":"assets/u18medal.jpg",
+        "smallImage2":"assets/example image-02.jpg",
+        "smallImage3":"assets/example image-02.jpg",
+        "smallImage4":"assets/example image-02.jpg"
       }
     ]
   }
