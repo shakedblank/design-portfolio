@@ -26,11 +26,18 @@
       },
       {
         "num":2,
-        "src": "assets/randomimage.jpg",
+        "src": "assets/haifaiotMainimage-80.jpg",
         "innerTitle": "haifaiot",
         "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "newPage": "project.html",
-        "targetClass": "projects-section"       
+        "targetClass": "projects-section",
+        "seconderyP":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "image1":"assets/haifaiotMainImage.jpg",
+        "image2":"assets/haifaiotmainimage2.jpg",
+        "smallImage1":"assets/haifaiotimagesmall1.jpg",
+        "smallImage2":"assets/haifaiotimagesmall2.jpg",
+        "smallImage3":"assets/haifaiotimagesmall3.jpg",
+        "smallImage4":"assets/haifaiotimagesmall4.jpg"    
       },
       {
         "num":3,
@@ -74,7 +81,7 @@
         "targetClass": "projects-section",
         "seconderyP":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         "image1":"assets/waterpoloLogoimage.jpg",
-        "image2":"assets/example image-01.jpg",
+        "image2":"assets/waterpoloimage2.jpg",
         "smallImage1":"assets/waterpoloimagesmall1.jpg",
         "smallImage2":"assets/waterpoloimagesmall2.jpg",
         "smallImage3":"assets/waterpoloimagesmall4.jpg",
