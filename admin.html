@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Projects Admin Panel</title>
-  <style>
-    body { font-family: sans-serif; padding: 20px; }
-    table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
-    th, td { border: 1px solid #ccc; padding: 6px; vertical-align: top; }
-    input[type=text], input[type=number] { width: 100%; }
-    button { margin: 2px; }
-    .image-preview { width: 60px; height: 60px; object-fit: cover; display: block; margin-bottom: 4px; border: 1px solid #999; }
-    .image-row { display: flex; align-items: center; gap: 4px; margin-bottom: 4px; }
-    .media-container { border: 1px solid #ccc; padding: 6px; margin: 6px 0; background: #f9f9f9; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel</title>
+<style>
+  body { font-family: sans-serif; padding: 20px; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+  th, td { border: 1px solid #ccc; padding: 8px; }
+  img { max-width: 100px; max-height: 60px; display: block; }
+  input { width: 95%; }
+  button { margin: 2px; }
+</style>
 </head>
 <body>
 
 <h1>Projects Admin Panel</h1>
-<button id="addProjectBtn">Add New Project</button>
+<button id="addProjectBtn">Add Project</button>
 <button id="saveBtn">Save to GitHub</button>
 
 <div id="projectsContainer"></div>
