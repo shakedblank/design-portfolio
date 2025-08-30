@@ -65,10 +65,10 @@
       "seconderyP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
       "image1": "assets/mazalmainimage1.jpg",
       "image2": "assets/mazalmainimage2.jpg",
-      "smallImage1": "assets/waterpoloimagesmall1.jpg",
-      "smallImage2": "assets/waterpoloimagesmall2.jpg",
-      "smallImage3": "assets/waterpoloimagesmall4.jpg",
-      "smallImage4": "assets/waterpoloimagesmall3.jpg"
+      "smallImage1": "assets/mazalimagesmall1.jpg",
+      "smallImage2": "assets/mazalimagesmall3.jpg",
+      "smallImage3": "assets/mazalimagesmall4.jpg",
+      "smallImage4": "assets/mazalimagesmall2.jpg"
     },
     {
       "num": 6,
