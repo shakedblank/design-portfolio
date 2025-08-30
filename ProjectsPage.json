@@ -57,11 +57,18 @@
     },
     {
       "num": 5,
-      "src": "assets/randomimage.jpg",
+       "src": "assets/mazalLogo.jpg",
       "innerTitle": "mazal's",
       "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
       "newPage": "project.html",
-      "targetClass": "projects-section"
+      "targetClass": "projects-section",
+      "seconderyP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "image1": "assets/mazalmainimage1.jpg",
+      "image2": "assets/waterpoloimage2.jpg",
+      "smallImage1": "assets/waterpoloimagesmall1.jpg",
+      "smallImage2": "assets/waterpoloimagesmall2.jpg",
+      "smallImage3": "assets/waterpoloimagesmall4.jpg",
+      "smallImage4": "assets/waterpoloimagesmall3.jpg"
     },
     {
       "num": 6,
