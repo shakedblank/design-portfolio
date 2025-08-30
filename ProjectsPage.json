@@ -18,7 +18,7 @@
     {
       "num": 1,
       "src": "assets/logoShowreel.jpg",
-      "innerTitle": "showreels",
+      "innerTitle": "showreel",
       "innerP": "A collection of my motion design and animation work—blending design, movement, and a touch of code to bring ideas to life.",
       "newPage": "project.html",
       "targetClass": "projects-section",
