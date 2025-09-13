@@ -85,7 +85,7 @@ body::selection {
 
 #about-small {
     height: 50vh;
-    background-color: #00879E;
+    background-color: var(--color2);
     display: flex;
     justify-content: center;
     align-items: center;
