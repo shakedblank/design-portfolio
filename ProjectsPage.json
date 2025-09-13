@@ -41,11 +41,18 @@
     },
     {
       "num": 3,
-      "src": "assets/randomimage.jpg",
+      "src": "assets/logo87-100.jpg  ",
       "innerTitle": "athletics 87 championship",
       "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
       "newPage": "project.html",
-      "targetClass": "projects-section"
+      "targetClass": "projects-section",
+      "seconderyP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "image1": "assets/87MainImage.jpg",
+      "image2": "assets/87mainimage2.jpg",
+      "smallImage1": "assets/87imagesmall1.jpg",
+      "smallImage2": "assets/87imagesmall14.jpg",
+      "smallImage3": "assets/87imagesmall3.jpg",
+      "smallImage4": "assets/87imagesmall2.jpg"
     },
     {
       "num": 4,
