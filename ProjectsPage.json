@@ -100,6 +100,15 @@
       "smallImage2": "assets/waterpoloimagesmall2.jpg",
       "smallImage3": "assets/waterpoloimagesmall4.jpg",
       "smallImage4": "assets/waterpoloimagesmall3.jpg"
+    },
+    {
+      "num": 8,
+      "src": "assets/logoguest-100.jpg",
+      "innerTitle": "guests for a moment",
+      "innerP": "Final project created in Cinema 4D – a fast-paced and dynamic Formula 1 inspired animation, full of energy and motion.",
+      "newPage": "project.html",
+      "targetClass": "projects-section",
+      "video1": "https://player.vimeo.com/video/438142276"
     }
   ]
 }
