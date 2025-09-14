@@ -85,7 +85,7 @@ body::selection {
 
 #about-small {
     height: 50vh;
-    background-color: var(--color2);
+    background-color: #ffffff00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -579,6 +579,7 @@ a{
     }
     #about-small {
         min-height: 40vh;
+       background-color: var(--color2);
         height: auto;
     }
     #word-seperator{
