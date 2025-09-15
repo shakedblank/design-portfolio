@@ -2,7 +2,7 @@
   // === CONFIG ===
   const CONFIG = {
     avgSize: 80,                // average size of shapes
-    shapeColor: ["hsla(200,60%,70%,0.25)","hsla(320,60%,70%,0.25)","hsla(50,60%,70%,0.25)"],
+    shapeColor: ["#e5a227a7","#e5a22762"],
     numShapes: 6,              // number of shapes
     speed: 1.0,                 // movement speed
     cursorRadius: 100,          // cursor interaction radius
@@ -26,7 +26,7 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        z-index: -1;
+        z-index: -2;
         pointer-events: none;
       }
     `;
