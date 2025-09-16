@@ -3,11 +3,13 @@
   const CONFIG = {
     avgSize: 80,                // average size of shapes
     shapeColor: ["#e5a227a7","#e5a22762"],
-    numShapes: 6,              // number of shapes
+    numShapes: 6,               // number of shapes
     speed: 1.0,                 // movement speed
     cursorRadius: 100,          // cursor interaction radius
     pushStrength: 0.5,          // how strongly shapes are pushed
-    friction: 0.95              // slows shape velocity gradually
+    friction: 0.95,             // slows shape velocity gradually
+    minBlur: 2,                 // minimum blur in px
+    maxBlur: 15                 // maximum blur in px
   };
   // ==============
 
@@ -95,6 +97,9 @@
       } else {
         this.color = CONFIG.shapeColor;
       }
+
+      // every shape always has some blur
+      this.blur = rand(CONFIG.minBlur, CONFIG.maxBlur);
     }
 
     update(shapes) {
@@ -150,10 +155,15 @@
       ctx.translate(this.x, this.y);
       ctx.rotate(this.rotation);
       ctx.scale(this.scale, this.scale);
+
       ctx.fillStyle = this.color;
+      ctx.filter = `blur(${this.blur}px)`; // blur always applied
+
       if(this.type==="star") drawStar(ctx,0,0,this.sides,this.size,this.size/2);
       else drawPolygon(ctx,0,0,this.sides,this.size);
+
       ctx.restore();
+      ctx.filter = "none"; // reset blur
     }
   }
 
