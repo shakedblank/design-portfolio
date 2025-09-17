@@ -56,11 +56,18 @@
     },
     {
       "num": 4,
-      "src": "assets/randomimage.jpg",
-      "innerTitle": "jerusalem grand slams",
+      "src": "assets/logojm.png",
+      "innerTitle": "jerusalem grand slam",
       "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
       "newPage": "project.html",
-      "targetClass": "projects-section"
+      "targetClass": "projects-section",
+      "seconderyP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "image1": "assets/mazalmainimage1.jpg",
+      "image2": "assets/mazalmainimage2.jpg",
+      "smallImage1": "assets/mazalimagesmall1.jpg",
+      "smallImage2": "assets/mazalimagesmall3.jpg",
+      "smallImage3": "assets/mazalimagesmall4.jpg",
+      "smallImage4": "assets/mazalimagesmall2.jpg"
     },
     {
       "num": 5,
