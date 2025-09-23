@@ -450,8 +450,8 @@ a{
     justify-content: center;
 }
 #main-video{
-    width: 90vw;
-    height: calc(90vw * 9 / 16);
+    width: 70vw;
+    height: calc(70vw * 9 / 16);
 }
 
 #menu-popup{
@@ -475,6 +475,12 @@ a{
 
 }
 @media only screen and (max-width: 790px) {
+
+    #main-video{
+    width: 80vw;
+    height: calc(80vw * 9 / 16);
+}
+
     #aboutS form{
         flex-direction: column;  
         
