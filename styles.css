@@ -452,6 +452,7 @@ a{
 #main-video{
     width: 70vw;
     height: calc(70vw * 9 / 16);
+    margin-top: 20px;
 }
 
 #menu-popup{
