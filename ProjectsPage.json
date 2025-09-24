@@ -8,11 +8,11 @@
       "newPage": "project.html",
       "targetClass": "projects-section",
       "seconderyP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-      "image1": "assets/example image-01.jpg",
-      "image2": "assets/example image-01.jpg",
+      "image1": "assets/u18MainImage.jpg",
+       "video1": "https://player.vimeo.com/video/1121648362?h=73e2b17aca&autoplay=1&loop=1&muted=1&quality=720p&background=1",
       "smallImage1": "assets/u18medal.jpg",
-      "smallImage2": "assets/example image-02.jpg",
-      "smallImage3": "assets/example image-02.jpg",
+      "smallImage2": "assets/u20images2.gif",
+      "smallImage3": "assets/u18images3.jpg",
       "smallImage4": "assets/example image-02.jpg"
     },
     {
