@@ -116,6 +116,21 @@
       "newPage": "project.html",
       "targetClass": "projects-section",
       "video1": "https://player.vimeo.com/video/438142276"
+    },
+        {
+      "num": 9,
+      "src": "assets/logo selfree.jpg",
+      "innerTitle": "WIZO- Selfree",
+      "innerP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "newPage": "project.html",
+      "targetClass": "projects-section",
+      "seconderyP": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "image2": "assets/teendayMainImage.jpg",
+      "smallImage1": "assets/selfreeimages1.jpg",
+      "smallImage2": "assets/selfreeimages2.jpg",
+      "smallImage3": "assets/selfreeimages3.jpg",
+      "smallImage4": "assets/selfreeimages14.jpg",
+      "video1": "https://www.youtube.com/embed/8d_KW6tsVdE?si=lxxk0EPngfOY1ZR9"
     }
   ]
 }
