@@ -408,7 +408,7 @@ a{
 #secondey-paragraph{
     font-size: 1rem;
     color: var(--color1);
-    max-width: 30%;
+    max-width: 50%;;
     min-width: 200px;
     padding: 20px 0;
 }
