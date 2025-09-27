@@ -93,7 +93,7 @@ body::selection {
 
 #home-p {
     color: var(--color4);
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 #home-abouth {
@@ -215,7 +215,7 @@ body::selection {
     color: var(--color4);
     cursor: pointer;
     overflow: hidden;
-    height: 335px;
+    height: 425px;
 }
 
 .project-continer img {
@@ -315,6 +315,7 @@ footer .buttons {
     color: var(--color4);
     display: inline-block;
     padding: 4px 8px;
+    margin: 20px 0;
 }
 
 .about-paragraph{
