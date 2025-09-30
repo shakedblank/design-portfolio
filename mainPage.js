@@ -29,7 +29,7 @@ projectConteinerBox.forEach((element,index)=>{
 
 
 const wordSeperator = document.getElementById("word-seperator");
-const skills= ["photoshop","illustrator","after\u00A0effects","indesign","css","html","javascript","unity","premier","Cinema4D"
+const skills= ["photoshop","illustrator","after\u00A0effects","indesign","css","html","javascript","unity","premier","Cinema4D","powerpoint","c#"
 ];
 for(let i=0; i<2;i++){
     const wordGroup = document.createElement("div");
